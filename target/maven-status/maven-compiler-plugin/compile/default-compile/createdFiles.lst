@@ -1,0 +1,6 @@
+com/dethrone/tb2/JakartaRestConfiguration.class
+com/dethrone/tb2/resources/HibernateUtil.class
+com/dethrone/tb2/resources/UserService.class
+com/dethrone/tb2/resources/User.class
+com/dethrone/tb2/resources/UserServlet.class
+com/dethrone/tb2/resources/JakartaEE10Resource.class

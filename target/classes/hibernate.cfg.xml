@@ -1,0 +1,26 @@
+<!-- FILEPATH: /Users/alkamfrz/Practice/OOP/TB2/src/main/resources/hibernate.cfg.xml -->
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hbdb</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+
+        <!-- SQL dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="hibernate.show_sql">true</property>
+
+        <property name="hibernate.id.new_generator_mappings">false</property>
+
+        <!-- Mapping files -->
+        <mapping class="com.dethrone.tb2.resources.User"/>
+
+    </session-factory>
+
+</hibernate-configuration>
